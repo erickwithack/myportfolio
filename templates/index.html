@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Boostrap CSS cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <!--css stylesheet-->
+    <link rel="stylesheet" text="text/css" href="/static/main.css">
+
+    <!--Title-->
+    <title>Portfolio: Erick Meikoki</title>
+    
+</head>
+<body>
+    <!--Navbar component -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">
+            <span id="title">Portfolio</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+       </div>
+      </nav>
+    
+
+    <!--Jumbotron-->
+    <div class="jumbotron">
+        <h1>
+            An interactive design expert and developer.
+        </h1>
+        
+    </div>
+    
+
+    <!--main content-->
+    <div class="container">
+        <div class="SA">
+            <div class="Summary">
+                <h3>Summary</h3>
+                <hr />
+                I am a web developer with a passion for coding. I am familiar with both front end and back end technologies. I have experience building landing pages and full stack web applications. 
+            </div>
+            <div class="Ambitions">
+                <h3>Ambitions</h3>
+                <hr />
+                I look forward to using code to bring more ideas to life, gain more corporate experience and acquaint myself with more technologies pertinent to web development
+            </div>
+        </div>
+
+        <h2 id="exp">Experiences</h2>
+        <hr />
+        <div class="experiences">
+            <div class="E">
+                <h3>Web Designer</h3>
+                <h5>Joy Geomar Non profit (Nairobi, Kenya)</h5>
+                <h6>(10/2019 to 12/2020)</h6>
+                <hr />
+                <p>Created a three-page website for an elementary school using HTML, JavaScript and Bootstrap frameworks. Implemented server-side rendering for the website using NodeJS, consequently increasing donor funding for the
+                school by 25% and enrollment by 125%. Also styled the website using CSS, AnimateCSS and Bootstrap.</p>
+                <button class="btn btn-primary text-white-50"><a href="https://github.com/erickwithack/github.io">Link to code</a></button>
+            </div>
+            <div class="E">
+                <h3>Javascript Developer</h3>
+                <h5>Zero to Mastery Camp (Evanston, IL)</h5>
+                <h6>01/2020 to 02/2020</h6>
+                <hr />
+                <p>Created a Keeper app clone using React JS, basic HTML and CSS. Collaborated with a team of computer science students in creating web page components and implemented update, delete and edit functions.</p>
+
+                <button class="btn btn-primary text-white-50"><a href="https://github.com/erickwithack/REactKeeperApp">Link to code</a></button>
+                
+            </div>
+            <div class="E">
+                <h3>Python Developer</h3>
+                <h5>Segal Design Institute (Evanston, IL)</h5>
+                <h6>01/2020 to 03/2020</h6>
+                <hr />
+                <p>Created a website for a hand extender prototype for patients who have had a stroke using Flask Python and Bootstrap and increased sales for hand extender machines by 40%. Collaborated with a team of front-end engineers at Segal, made revisions to the website and coordinated version control using GitHub.</p>
+                <button class="btn btn-primary text-white-50"><a href="https://github.com/erickwithack/finalreport.io">Link to code</a></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron contact">
+        <h1>Contact Me
+        </h1>
+        
+    </div>
+
+    <div class="container">
+        <form action="mailto:lemaerick6@gmail.com" name="myForm" enctype="text/plain" onsubmit="return validateForm()">
+            <div class="form-group">
+                <label for="exampleFormControlInput1">
+                    Email address
+                    </label>
+                <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required minlength="1">
+            </div>
+            
+            <div class="form-group">
+                <label for="exampleFormControlInput1">
+                    Username
+                    </label>
+                <input type="text" name="username" class="form-control" id="exampleFormControlInput1" placeholder="Enter name" required minlength="1">
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">
+                    Enter Message
+                </label>
+                <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+            <input class="btn btn-primary" type="button" value="submit" required minlength="10">
+        </form>
+    </div>
+    
+    <footer>
+        <div class="footer-copyright text-center py-3">© 2020 Copyright
+          </div>
+    </footer>
+
+
+    <!-- Copyright -->
+    
+
+    <!--Boostrap JS cdn -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!--Jquery cdn-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    
+    <script>
+        function validateForm() {
+                var messageEntered = document.forms["myForm"]["message"].value;
+                if (messageEntered == "") {
+                    alert("Message Field cannot be left empty");
+                    return false;
+                                    }
+                }
+
+    </script>
+    
+</body>
+</html>

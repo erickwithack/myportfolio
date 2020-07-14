@@ -1,6 +1,6 @@
 .Summary{
     border:2px solid black;
-    padding: 20px;
+    padding: 30px;
     margin-bottom: 30px;
     border-radius: 10px;
 }
@@ -9,7 +9,7 @@
 }
 .Ambitions{
     border:2px solid black;
-    padding: 20px;
+    padding: 30px;
     margin-top: 30px;
     border-radius: 10px;
 }
@@ -23,10 +23,10 @@
     
 }
 #exp{
-    margin-top:40px;
+    margin-top:50px;
 }
 .contact{
-    margin-top:40px;
+    margin-top:50px;
 }
 #title{
     margin-left:70px;
